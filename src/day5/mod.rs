@@ -1,5 +1,5 @@
 use std::fs;
-use std::ops:: Not;
+use std::ops::Not;
 
 pub fn one() -> usize {
     let input = fs::read_to_string("src/day5/input").expect("Unable to read file");
